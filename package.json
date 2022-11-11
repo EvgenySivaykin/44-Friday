@@ -11,6 +11,6 @@
     "author": "Evgeny",
     "license": "ISC",
     "devDependencies": {
-        "dead-server": "^1.0.8"
+        "dead-server": "^1.0.9"
     }
 }
