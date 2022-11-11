@@ -74,6 +74,21 @@ body {
     height: 25px;
     margin: 34px 30px 0px 30px;
 }
+.container > .main-meniu > .link:hover {
+    filter: invert(50%);
+}
+
+.container > .main-meniu > .link1:hover {
+    filter: invert(50%);
+}
+.container:hover {
+    width: 206px;
+    height: 906px;
+}
+.container > .line:hover {
+    width: 128px;
+    margin-left: 28px;
+}
 
 .container1 {
     display: flex;
