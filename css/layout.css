@@ -1,0 +1,12 @@
+:root {
+    --bg-lgray: #c4c4c4;
+    --blue: #02577a;
+}
+
+body {
+    display: inline-block;
+    margin: 0;
+    background-color: var(--bg-lgray);
+    width: 1440px;
+    height: 906px;
+}
