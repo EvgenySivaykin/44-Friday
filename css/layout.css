@@ -1,0 +1,90 @@
+body {
+    width: 100%;
+    background-color: var(--backgroud-color);
+}
+.nav {
+    height: 100vh;
+    width: 100px;
+    position: fixed;
+    background-color: var(--nav-color);
+    transition: width 1s;
+}
+nav > div {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 68px;
+    height: 34px;
+    margin: 52px 16px 20px 16px;
+    text-align: center;
+    justify-content: center;
+}
+.line-23 {
+    width: 62.24px;
+    margin-left: 18px;
+    height: 2px;
+    background-color: var(--secondary-color);
+    transition: width 2s;
+}
+.header-menu {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+.link {
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 19.5px;
+    display: none;
+    color: var(--secondary-color);
+    margin-left: 19px;
+}
+.home {
+    color: var(--primary-color);
+}
+.menu-item:nth-child(1) {
+    margin-bottom: 16px;
+}
+.vector {
+    height: 25px;
+    margin-left: 37px;
+}
+.back-home {
+    margin-left: 43px;
+}
+.games {
+    margin-left: 30px;
+}
+.nav:hover {
+    width: 206px;
+    cursor: pointer;
+    text-align: center;
+}
+.nav:hover .line-23 {
+    width: 128.22px;
+    margin-left: 39px;
+}
+.nav:hover .link {
+    display: inline-block;
+}
+.line-24 {
+    width: 346.01px;
+    background-color: var(--primary-color);
+    height: 1px;
+    transform: translate(-50%);
+    position: absolute;
+    top: 95%;
+    left: 50%;
+}
+.copy-right {
+    font-size: 11px;
+    line-height: 13px;
+    color: var(--primary-color);
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 10px;
+}
